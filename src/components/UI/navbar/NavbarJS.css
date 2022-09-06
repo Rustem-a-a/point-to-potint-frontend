@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav__wrapper{
+    display: grid;
+    grid-template: 42px/82px 116px 155px 88px;
+    justify-content: center;
+    column-gap: 144px;
+    margin-top: 72px;
+
+}
+.nav__item{
+    align-self: center;
+    font-size: 25px;
+    text-align: center;
+  }
+.nav__services{
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+}
+.active{
+    transition-duration: 1s;
+    background: rgb(209, 231, 255);
+}
+
+.nav__link{
+    padding: 0 10px 0 10px;
+    border-radius: 5px;
+}

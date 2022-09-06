@@ -1,0 +1,30 @@
+.footer__wrapper{
+ display: grid;
+    grid-template: 113px/repeat(3,1fr);
+    background:rgba(181, 215, 255, 1);
+    /*border: 2px black solid;*/
+    align-items: center;
+  }
+.footer__pone{
+     font-size: 20px;
+    justify-self: left;
+    margin-left: 120px;
+}
+.footer__email{
+    font-size: 20px;
+    justify-self: center;
+
+}
+.footer__social{
+    font-size: 20px;
+    justify-self: end;
+    margin-right: 120px;
+    display: grid;
+    row-gap: 10px;
+}
+.footer__icons{
+    display: grid;
+    grid-template: 1fr/repeat(4,min-content);
+    column-gap: 10px;
+    justify-content: center;
+}

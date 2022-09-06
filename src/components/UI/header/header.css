@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header__wrapper{
+    display: grid;
+    grid-template: 108px/220px 629px 512px 300px 259px;
+    background: rgba(181, 215, 255, 1);
+    /*border: 2px black solid;*/
+    }
+
+.header__item{
+    /*border: 2px black solid;*/
+
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.header__logo{
+    justify-self: end;
+    align-self: end;
+}
+.header__text__point{
+    justify-self: end;
+    align-self: center;
+    font-size: 40px;
+}
+.header__text__delivery{
+    justify-self: start;
+    align-self: center;
+    font-size: 28px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.header__text__auth{
+    justify-self: start;
+    align-self: center;
+    font-size: 22px;
+}
+a{
+   text-decoration: none;
+    color: black;
+}
+.header__phone{
+    align-self: center;
+    justify-self: left;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.header__avatar{
+    text-align: center;
+}

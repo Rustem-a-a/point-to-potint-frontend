@@ -1,0 +1,91 @@
+$border: 2px black solid;
+.wrapper {
+    display: grid;
+    grid-template: 180px repeat(4,637px)/1678px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    //border: 3px blue dashed;
+    margin-top: 80px;
+    .text{
+        display: grid;
+        grid-template: 90px 90px/1fr;
+        justify-items: left;
+        //border:$border;
+        .textOne{
+            font-family: "News Cycle";
+            font-weight: bold;
+            font-size: 42px;
+
+        }
+        .textTwo{
+            font-family: 'Mukta';
+            font-size: 27px;
+
+        }
+    }
+    .first{
+        display: grid;
+        grid-template: 637px/910px 1fr;
+        //border:$border;
+        .autosImg{
+            grid-area: 1/1/2/2;
+            //border:$border;
+            align-self: center;
+            justify-self: left;
+            &>img{
+                width: 600px;
+                height: 425px;
+            }
+        }
+        .autosText{
+            font-size: 32px;
+            font-family: 'News Cycle';
+            justify-self: center;
+            align-self: center;
+            //border:$border;
+            & li{
+                list-style-position:inside;
+            }
+            & p{
+                font-size: 42px;
+                font-family: 'News Cycle';
+                font-weight: bold;
+            }
+        }
+
+    }
+
+    .second{
+        display: grid;
+        grid-template: 637px/1fr 910px;
+        //border:$border;
+        .autosImg{
+            //border:$border;
+            grid-area: 1/2/2/3;
+            align-self: center;
+            justify-self: right;
+            &>img{
+                width: 600px;
+                height: 425px;
+            }
+        }
+        .autosText{
+            font-size: 32px;
+            font-family: 'News Cycle';
+            justify-self: center;
+            align-self: center;
+            //border:$border;
+            & li{
+                list-style-position:inside;
+            }
+            & p{
+                font-size: 42px;
+                font-family: 'News Cycle';
+                font-weight: bold;
+            }
+        }
+
+    }
+}
+

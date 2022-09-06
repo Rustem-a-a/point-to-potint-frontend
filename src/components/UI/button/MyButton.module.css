@@ -1,0 +1,9 @@
+.myButton{
+    background: azure;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.myButton:hover{
+    box-shadow: inset -1px -1px 1px black;
+}

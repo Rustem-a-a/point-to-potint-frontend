@@ -1,0 +1,57 @@
+<div className="grid__main__wrapper">
+            <h1 className='main__info'>
+                {/*Наша компания имеет значительный опыт работы в области грузоперевозок! Специалияты наше компании*/}
+                {/*помогут подобрать наилучшие варианты для Вас включая дополнительные услуги.*/}
+
+            </h1>
+            <Link className="grid__main__items main__services" to = '/services'><div><p>Услуги</p></div></Link>
+            <Link className="grid__main__items main__calc" to = '/calculator'><div><p>Калькулятор</p></div></Link>
+            <Link className="grid__main__items main__auto" to = '/autos'><div><p>Автопарк</p></div></Link>
+            <Link className="grid__main__items main__about" to = '/about' ><div><p>Про нас</p></div></Link>
+        </div>
+
+
+.header{
+    height: 144px;
+    background: rgba(232, 240, 255, 1);
+    color: black;
+    display: flex;
+    justify-content: left;
+    }
+.logo{
+    box-sizing: border-box;
+    height: 150px;
+    width: 150px;
+    text-decoration: none;
+    margin: 4px 0px 4px 120px;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    margin: 0 0 0 200px;
+    justify-content: left;
+    align-items: center;
+}
+.mainText{
+    font-size: 40px;
+    margin-right: 5px;
+}
+.secondText {
+    font-size: 28px;
+    margin-top: 10px;
+
+}
+.auth{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    list-style-type: none;
+    justify-content: center;
+    margin-right: 10px;
+}
+.header_link{
+    margin-right: 120px;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
