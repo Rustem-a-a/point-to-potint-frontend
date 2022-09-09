@@ -14,7 +14,7 @@ const Prr = () => {
                 Спуск с этажей негабаритного груза<br/>
                 Использование такелажных приспособлений
             </div>
-            <img className={styles.image} src="http://localhost:5000/UIImages/prr.jpg" alt=""/>
+            <img className={styles.image} src="https://point-to-point-backend.herokuapp.com/UIImages/prr.jpg" alt=""/>
 
         </div>
     );

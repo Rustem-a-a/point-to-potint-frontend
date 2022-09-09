@@ -18,7 +18,7 @@ const Delivery = () => {
             <div className={styles.third}>Индивидуальный подход к каждому клиенту, включая
                 <br/>дополнительные улуги в зависимости от вида перевозок</div>
 
-                <img className={styles.image} src="http://localhost:5000/UIImages/services_img.png" alt=""/>
+                <img className={styles.image} src="https://point-to-point-backend.herokuapp.com/UIImages/services_img.png" alt=""/>
                <Link className={styles.button} to='/autos'>Подобрать автомобиль</Link>
             </div>
     );

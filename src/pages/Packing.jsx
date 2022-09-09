@@ -13,7 +13,7 @@ const Packing = () => {
                 Защита груза воздушно-пузырчатой пленкой<br/>
                 Упаковка груза в мешки/сумки/пакеты<br/>
                 Амортизирующая прокладка груза</div>
-            <img className={styles.image} src="http://localhost:5000/UIImages/packing.jpg" alt=""/>
+            <img className={styles.image} src="https://point-to-point-backend.herokuapp.com/UIImages/packing.jpg" alt=""/>
 
         </div>
     );

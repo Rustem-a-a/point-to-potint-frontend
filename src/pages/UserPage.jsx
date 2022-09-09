@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import axios from "axios";
+import axios from "../axios";
 import {useSelector} from "react-redux";
 import {useForm} from "react-hook-form";
 import './UserPage.css'
@@ -11,7 +11,7 @@ const UserPage = () => {
     useEffect(() => {
         (async () => {
             debugger
-            const response = await axios.post('http://localhost:5000/auth/avatar', {_id: user._id})
+            const response = await axios.post('/auth/avatar', {_id: user._id})
             setAvatar(response.data.message)
         })()
     }, [])
@@ -36,9 +36,9 @@ const UserPage = () => {
     const changeInput = async (e) => {
         const formData = new FormData()
         formData.append('avatar', e.target.files[0])
-        const {data} = await axios.post('http://localhost:5000/api/avatar', formData, {'content-type': 'multipart/form-data'})
-        await axios.patch('http://localhost:5000/auth/change/' + user._id, {avatar: 'http://localhost:5000/avatar/' + data.filename})
-        const response = await axios.post('http://localhost:5000/auth/avatar', {_id: user._id})
+        const {data} = await axios.post('/api/avatar', formData, {'content-type': 'multipart/form-data'})
+        await axios.patch('/auth/change/' + user._id, {avatar: 'https://point-to-point-backend.herokuapp.com/avatar/' + data.filename})
+        const response = await axios.post('/auth/avatar', {_id: user._id})
         setAvatar(response.data.message)
     }
     return (

@@ -25,7 +25,7 @@ const Main = () => {
                 <div className="main-lozung">Быстро</div>
                 <div className="main-lozung">Надежно</div>
             </div>
-            <div className='main__photo'><img src='http://localhost:5000/UIImages/main_right.png' alt="Good job"/></div>
+            <div className='main__photo'><img src='https://point-to-point-backend.herokuapp.com/UIImages/main_right.png' alt="Good job"/></div>
         </div>
     );
 };

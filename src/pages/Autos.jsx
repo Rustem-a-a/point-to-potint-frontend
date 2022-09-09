@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import axios from "axios";
+import axios from "../axios";
 
 
 import styles from './Autos.module.scss'
@@ -11,7 +11,7 @@ const Autos = () => {
 
 
 const getPhotos = async ()=>{
-        const response = await axios ('http://localhost:5000/auth/auto')
+        const response = await axios ('/auth/auto')
         setAutos([...response.data])
      }
      useEffect(()=>{

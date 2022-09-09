@@ -12,7 +12,7 @@ const Passing = () => {
                 Согласование сроков доставки<br/>
 
             </div>
-            <img className={styles.image} src="http://localhost:5000/UIImages/passing.jpeg" alt=""/>
+            <img className={styles.image} src="https://point-to-point-backend.herokuapp.com/UIImages/passing.jpeg" alt=""/>
 
         </div>
     );
