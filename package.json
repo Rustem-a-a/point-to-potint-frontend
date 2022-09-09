@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "home": "https://rustemabdulaev.github.io/point-to-potint-frontend/",
+  "homepage": "https://rustemabdulaev.github.io/point-to-potint-frontend/",
   "dependencies": {
     "@pbe/react-yandex-maps": "^1.1.8",
     "@react-google-maps/api": "^2.12.2",
