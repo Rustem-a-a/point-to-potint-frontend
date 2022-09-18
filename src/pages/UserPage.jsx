@@ -10,7 +10,6 @@ const UserPage = () => {
 
     useEffect(() => {
         (async () => {
-            debugger
             const response = await axios.post('/auth/avatar', {_id: user._id})
             setAvatar(response.data.message)
         })()
@@ -37,7 +36,10 @@ const UserPage = () => {
         const formData = new FormData()
         formData.append('avatar', e.target.files[0])
         const {data} = await axios.post('/api/avatar', formData, {'content-type': 'multipart/form-data'})
-        await axios.patch('/auth/change/' + user._id, {avatar: 'https://point-to-point-backend.herokuapp.com/avatar/' + data.filename})
+        await axios.patch('/auth/change/' + user._id, {avatar:
+                    // 'http://localhost:5000/avatar/'
+                'https://point-to-point-backend.herokuapp.com/avatar/'
+        +data.filename})
         const response = await axios.post('/auth/avatar', {_id: user._id})
         setAvatar(response.data.message)
     }
