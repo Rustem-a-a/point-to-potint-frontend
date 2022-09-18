@@ -1,7 +1,89 @@
-input{
-  display: block;
+$border: 2px black solid;
+.wrapper{
+  margin: 70px 120px 0px 120px;
+  //border: $border;
+  display: grid;
+  grid-template: repeat(4,100px)/repeat(3,1fr);
+  gap: 40px;
+  font-family: 'Mukta',sans-serif;
+  justify-items: left;
+  .title{
+    font-size: 42px;
+    font-weight: bold;
+    grid-area: 1/1/2/4;
+    justify-self: left;
+  }
 
-}
-form{
-  display: flex;
+  .from{
+    display: grid;
+    justify-items: center;
+    grid-area: 2/1/3/2;
+    input{
+      margin-bottom: 0px;
+    };
+  }
+  .to{
+    display: grid;
+    justify-items: center;
+    grid-area: 2/2/3/3;
+     input{
+      margin-bottom: 0px;
+    };
+  }
+  .weight{
+    display: grid;
+    justify-items: center;
+    grid-area: 2/3/3/4;
+     input{
+      margin-bottom: 0px;
+    };
+  }
+  .length{
+    display: grid;
+    justify-items: center;
+    grid-area: 3/1/4/2;
+     input{
+      margin-bottom: 0px;
+    };
+  }
+  .width{
+    display: grid;
+    justify-items: center;
+    grid-area: 3/2/4/3;
+     input{
+      margin-bottom: 0px;
+    };
+  }
+  .height{
+    display: grid;
+    justify-items: center;
+    grid-area: 3/3/4/4;
+     input{
+      margin-bottom: 0px;
+    };
+  }
+  .phone{
+    display: grid;
+    justify-items: center;
+    grid-area: 4/1/5/2;
+     input{
+      margin-bottom: 0px;
+    };
+  }
+  .email{
+    display: grid;
+    justify-items: center;
+    grid-area: 4/2/5/3;
+     input{
+      margin-bottom: 0px;
+    };
+  }
+  .send{
+    display: grid;
+    justify-items: center;
+    grid-area: 4/3/5/4;
+         input{
+      margin-bottom: 0px;
+    };
+  }
 }
