@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/point-to-potint-frontend/static/css/main.72f023b8.css",
-    "main.js": "/point-to-potint-frontend/static/js/main.30ca8169.js",
+    "main.css": "/point-to-potint-frontend/static/css/main.780b3bfb.css",
+    "main.js": "/point-to-potint-frontend/static/js/main.0e014041.js",
     "static/media/logo.png": "/point-to-potint-frontend/static/media/logo.1d5e79f637414fa6ee96.png",
     "index.html": "/point-to-potint-frontend/index.html",
-    "main.72f023b8.css.map": "/point-to-potint-frontend/static/css/main.72f023b8.css.map",
-    "main.30ca8169.js.map": "/point-to-potint-frontend/static/js/main.30ca8169.js.map"
+    "main.780b3bfb.css.map": "/point-to-potint-frontend/static/css/main.780b3bfb.css.map",
+    "main.0e014041.js.map": "/point-to-potint-frontend/static/js/main.0e014041.js.map"
   },
   "entrypoints": [
-    "static/css/main.72f023b8.css",
-    "static/js/main.30ca8169.js"
+    "static/css/main.780b3bfb.css",
+    "static/js/main.0e014041.js"
   ]
 }
